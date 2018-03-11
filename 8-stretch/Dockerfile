@@ -11,7 +11,9 @@ RUN  \
     && apt-get autoremove\
 
 RUN \
-    npm install -g bower gulp grunt
+    npm install -g bower \
+    && npm install -g gulp \
+    && npm install -g grunt
 
 RUN \
     mkdir -p /root/.ssh \
