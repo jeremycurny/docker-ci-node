@@ -8,7 +8,7 @@ RUN  \
     apt-get update \
     && apt-get install -y git sshpass \
     && apt-get clean autoclean \
-    && apt-get autoremove\
+    && apt-get autoremove
 
 RUN \
     npm install -g bower \
