@@ -11,7 +11,7 @@ RUN  \
     && apt-get autoremove
 
 RUN \
-    npm install -g bower gulp grunt jshint
+    npm install -g bower gulp grunt jshint jslint standard
 
 RUN \
     mkdir -p /root/.ssh \
