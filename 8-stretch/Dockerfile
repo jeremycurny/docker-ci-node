@@ -6,7 +6,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN  \
     apt-get update \
-    && apt-get install -y git jq rsync sshpass \
+    && apt-get install -y git jq rsync sshpass unzip zip \
     && apt-get clean autoclean \
     && apt-get autoremove
 
